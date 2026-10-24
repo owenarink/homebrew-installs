@@ -8,7 +8,7 @@ cask "practice-capture" do
   homepage "https://github.com/owenarink/repstruc/tree/main/apps/practice-capture"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Practice-Capture/Practice Capture.app"
 
